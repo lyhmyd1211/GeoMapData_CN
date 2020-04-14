@@ -5,6 +5,9 @@
 #### 全国各省地图：province<br/>
 #### 全国各市地图：city<br/>
 #### 全国各区县地图：county<br/>
+#### 全国省市区县所对应行政区划代码以及中心点的坐标：location.json (方便用于echarts上显示某个点的位置)
+
+可直接用于echarts地图的显示
 
 数据来源： http://datav.aliyun.com/tools/atlas/
 
