@@ -32,7 +32,7 @@ with urllib.request.urlopen(url, context=context) as response:
     html = json.loads(response.read().decode("UTF-8"))
     with open("location.json", "w", encoding='utf-8') as json_file:
         json.dump(html, json_file, ensure_ascii=False)
-        print("写入 location.json", html)
+        print("写入 location.json")
     for item in list(html.keys()):
         if getAreaCodeType(item) == "3":
             with urllib.request.urlopen(
