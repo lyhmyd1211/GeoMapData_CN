@@ -44,7 +44,7 @@ with urllib.request.urlopen(url, context=context) as response:
                 )
                 text = json.loads(res.read().decode("UTF-8"))
                 with open("county/" + item + ".json", "w", encoding='utf-8') as json_file:
-                    json.dump(text, json_file)
+                    json.dump(text, json_file, ensure_ascii=False)
                     print("写入", item)
         else:
             with urllib.request.urlopen(
