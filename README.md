@@ -1,4 +1,4 @@
-# GeoMapData_CN
+# GeoMapData_CN  V3版本
 ## 最新中国省市区县geoJSON格式地图数据（包含子区域）<br/>
 ### 包括:<br/>
 #### 全国地图: china.json<br/>
